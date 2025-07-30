@@ -19,6 +19,8 @@ public class HomePage extends BasePage {
         super(driver);  // This initializes the driver and WebElements in the parent class
     }
 
+    // ----------- Page Elements (Located using XPath) -----------
+
     // Locate the "My Account" link using its title attribute
     @FindBy(xpath = "//a[@title=\"My Account\"]")
     WebElement lnkMyAccount;
@@ -26,6 +28,8 @@ public class HomePage extends BasePage {
     // Locate the "Register" link using its visible text
     @FindBy(xpath = "//a[text()='Register']")
     WebElement lnkRegister;
+
+    // ----------- Page Actions (Reusable Methods) -----------
 
     // Method to click on the "My Account" link
     public void clickMyAccount (){
