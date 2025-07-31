@@ -1,5 +1,7 @@
 package testCases;
 
+import net.bytebuddy.utility.RandomString;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -40,9 +42,9 @@ public class TC001_AccountRegistrationTest {
         hp.clickRegister();
 
         AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
-        regPage.setFirstName("John");
-        regPage.setLastName("Doe");
-        regPage.setEmail("hgdfhsgdfmre@gmail.com");
+        regPage.setFirstName(randomString().toUpperCase());
+        regPage.setLastName(randomString().toUpperCase());
+        regPage.setEmail(randomString()+"@gmail.com");
         regPage.setTelephone("1234556789");
         regPage.setPassword("Vhghgjh$123");
         regPage.setConfirmPassword("Vhghgjh$123");
@@ -54,5 +56,10 @@ public class TC001_AccountRegistrationTest {
 
         Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
 
+    }
+
+    public String randomString(){
+        String generatedString = RandomStringUtils.randomAlphabetic(5);
+        return generatedString;
     }
 }
