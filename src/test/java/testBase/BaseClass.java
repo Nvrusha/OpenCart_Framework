@@ -1,4 +1,4 @@
-package testCases;
+package testBase;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
