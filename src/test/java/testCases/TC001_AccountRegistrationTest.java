@@ -6,41 +6,71 @@ import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
 import testBase.BaseClass;
 
-/**
- * Test Case: TC001_AccountRegistrationTest
- * Description: Validates user registration on TutorialsNinja demo site using random input data.
- * Framework Layer: Test Layer (uses Page Object Model + TestNG + Selenium)
- */
-public class TC001_AccountRegistrationTest extends BaseClass {
-
     /**
-     * Test: Automates account registration flow and verifies the confirmation message.
-     * Uses BaseClass for setup and data generation. Follows POM design pattern.
+     * Test Case: TC001_AccountRegistrationTest
+     * Description: Verifies successful user account registration on the TutorialsNinja demo website
+     * using randomly generated input data and validating the confirmation message.
      */
-    @Test
-    public void verifyAccountRegistration() {
+    public class TC001_AccountRegistrationTest extends BaseClass {
 
-        // Step 1: Navigate to Registration Page via Home Page
-        HomePage hp = new HomePage(driver);
-        hp.clickMyAccount();         // Click on "My Account"
-        hp.clickRegister();          // Select "Register"
+        @Test
+        public void verifyAccountRegistration() {
 
-        // Step 2: Fill in the Registration Form with randomly generated data
-        AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
-        regPage.setFirstName(randomString().toUpperCase());            // Random First Name
-        regPage.setLastName(randomString().toUpperCase());             // Random Last Name
-        regPage.setEmail(randomString() + "@gmail.com");               // Random Email
-        regPage.setTelephone(randomNumber());                          // Random Phone Number
+            // =======================
+            // Step 1: Open Registration Page
+            // =======================
 
-        String password = randomAlphaNumeric();                        // Random Password
-        regPage.setPassword(password);
-        regPage.setConfirmPassword(password);                          // Match Password
+            // Navigate to the home page and click on "My Account"
+            HomePage hp = new HomePage(driver);
+            hp.clickMyAccount();     // Opens the dropdown for login/register options
 
-        regPage.setPrivacyPolicy();                                     // Accept Terms
-        regPage.clickContinue();                                        // Submit Registration
+            // Click on "Register" to open the registration form
+            hp.clickRegister();
 
-        // Step 3: Validate confirmation message
-        String confirmMsg = regPage.getConfirmationMsg();
-        Assert.assertEquals(confirmMsg, "Your Account Has Been Created!"); // Final assertion
+            // =======================
+            // Step 2: Fill the Registration Form with Random Data
+            // =======================
+
+            // Create object for the registration page
+            AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
+
+            // Enter first name (randomly generated and converted to uppercase)
+            regPage.setFirstName(randomString().toUpperCase());
+
+            // Enter last name (randomly generated and converted to uppercase)
+            regPage.setLastName(randomString().toUpperCase());
+
+            // Enter unique email address (random string + @gmail.com)
+            regPage.setEmail(randomString() + "@gmail.com");
+
+            // Enter a random 10-digit phone number
+            regPage.setTelephone(randomNumber());
+
+            // Generate and enter a secure random password
+            String password = randomAlphaNumeric();
+            regPage.setPassword(password);
+            regPage.setConfirmPassword(password); // Confirm the same password
+
+            // =======================
+            // Step 3: Submit the Form
+            // =======================
+
+            // Accept the privacy policy (checkbox)
+            regPage.setPrivacyPolicy();
+
+            // Click the "Continue" button to register
+            regPage.clickContinue();
+
+            // =======================
+            // Step 4: Validate Confirmation Message
+            // =======================
+
+            // Fetch the message displayed after successful registration
+            String confirmMsg = regPage.getConfirmationMsg();
+
+            // Validate that the success message matches the expected text
+            Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
+
+            // If assertion passes, test is marked as successful
+        }
     }
-}
