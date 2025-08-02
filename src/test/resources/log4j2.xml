@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+    <!--
+        ===== Log Levels (from highest to lowest priority) =====
+
+        OFF     → Turns off logging (no logs will be captured)
+        FATAL   → Logs very severe errors (system crash-level issues)
+        ERROR   → Logs runtime errors that need to be fixed
+        WARN    → Logs unexpected but non-breaking situations
+        INFO    → General information about test execution or app flow
+        DEBUG   → Detailed diagnostic logs for debugging (only for dev use)
+        TRACE   → Most detailed level — logs every method call, step, etc.
+        ALL     → Captures everything (TRACE and above)
+
+        ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF
+
+        Recommended Levels:
+        - For dev/debugging: DEBUG or TRACE
+        - For production/test run logs: INFO or WARN
+    -->
+
+    <!-- ========= Global Properties ========= -->
+    <Properties>
+        <!-- Directory where logs will be saved -->
+        <Property name="log-path">./logs</Property>
+
+        <!-- Common log format: [timestamp] [level] [class:line] - message -->
+        <Property name="log-pattern">%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</Property>
+    </Properties>
+
+    <!-- ========= Appenders: Where logs go ========= -->
+    <Appenders>
+
+        <!-- Console: Output logs to terminal -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${log-pattern}" />
+        </Console>
+
+        <!-- Rolling File: Output logs to file and archive them based on size/time -->
+        <RollingFile name="File"
+                     fileName="${log-path}/automation.log"
+                     filePattern="${log-path}/automation-%d{MM-dd-yyyy}-%i.log.gz">
+
+            <PatternLayout pattern="${log-pattern}" />
+
+            <Policies>
+                <!-- Rolls over daily -->
+                <TimeBasedTriggeringPolicy />
+
+                <!-- Rolls over if log file size exceeds 1MB -->
+                <SizeBasedTriggeringPolicy size="1MB" />
+            </Policies>
+
+            <!-- Keeps up to 10 backup log files -->
+            <DefaultRolloverStrategy max="10" />
+        </RollingFile>
+
+    </Appenders>
+
+    <!-- ========= Loggers: What gets logged and where ========= -->
+    <Loggers>
+
+        <!-- Root Logger: logs everything from INFO and above -->
+        <Root level="INFO">
+
+            <!-- Optional: enable to see logs on the console too -->
+            <!-- <AppenderRef ref="Console" /> -->
+
+            <AppenderRef ref="File" />
+        </Root>
+
+    </Loggers>
+
+</Configuration>
