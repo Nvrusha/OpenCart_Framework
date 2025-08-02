@@ -13,8 +13,6 @@
         TRACE   → Most detailed level — logs every method call, step, etc.
         ALL     → Captures everything (TRACE and above)
 
-        ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF
-
         Recommended Levels:
         - For dev/debugging: DEBUG or TRACE
         - For production/test run logs: INFO or WARN
@@ -61,7 +59,11 @@
     <!-- ========= Loggers: What gets logged and where ========= -->
     <Loggers>
 
-        <!-- Root Logger: logs everything from INFO and above -->
+        <!-- Root Logger: logs everything from INFO and above
+
+         Log Level Hierarchy (Lowest to Highest Priority)
+        ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF
+        -->
         <Root level="INFO">
 
             <!-- Optional: enable to see logs on the console too -->
