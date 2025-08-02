@@ -64,7 +64,7 @@
          Log Level Hierarchy (Lowest to Highest Priority)
         ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF
         -->
-        <Root level="INFO">
+        <Root level="Debug">
 
             <!-- Optional: enable to see logs on the console too -->
             <!-- <AppenderRef ref="Console" /> -->
