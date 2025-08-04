@@ -278,3 +278,22 @@
 2025-08-04 08:12:42 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
 2025-08-04 08:12:42 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
 2025-08-04 08:12:43 INFO  TC001_AccountRegistrationTest:89 - Browser closed and WebDriver session ended.
+2025-08-04 08:20:53 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
+2025-08-04 08:20:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml
+
+2025-08-04 08:20:54 ERROR TC001_AccountRegistrationTest:58 - Invalid browser name: Safari
+2025-08-04 08:24:40 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
+2025-08-04 08:24:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml
+
+2025-08-04 08:24:40 ERROR TC001_AccountRegistrationTest:58 - Invalid browser name: Safari
+2025-08-04 08:29:08 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
+2025-08-04 08:29:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml
+
+2025-08-04 08:29:08 ERROR TC001_AccountRegistrationTest:58 - Invalid browser name: Safari
+2025-08-04 08:29:54 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml"
+2025-08-04 08:29:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
