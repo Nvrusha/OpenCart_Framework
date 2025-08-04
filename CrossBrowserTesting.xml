@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+  Suite Name: CrossBrowserSuite
+  Description: Executes the same test case across multiple browsers in parallel (Chrome, Edge, Firefox).
+  Useful for ensuring cross-browser compatibility of the application.
+-->
+<suite name="CrossBrowserSuite" parallel="tests" thread-count="3">
+
+    <!--
+      Test 1: Runs Account Registration Test on Chrome
+      OS and browser are passed as parameters to the test class
+    -->
+    <test name="ChromeTest">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+        </classes>
+    </test>
+
+    <!--
+      Test 2: Runs the same test on Edge browser
+    -->
+    <test name="EdgeTest">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+        </classes>
+    </test>
+
+    <!--
+      Test 3: Runs the same test on Firefox browser
+    -->
+    <test name="FireFoxTest">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+        </classes>
+    </test>
+
+</suite>

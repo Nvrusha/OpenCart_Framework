@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+  Master TestNG Suite
+  Purpose: Entry point for executing full regression across all supported environments/browsers.
+  Currently configured to run Account Registration Test on Chrome (Windows OS).
+-->
+<suite name="MasterRegressionSuite" parallel="tests" thread-count="2">
+
+    <!--
+      Test Block: Chrome on Windows
+      Parameters are passed to the test class to control browser/OS at runtime.
+      You can duplicate this <test> block to run on other browsers or platforms.
+    -->
+    <test name="Chrome">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+        </classes>
+    </test>
+
+</suite>

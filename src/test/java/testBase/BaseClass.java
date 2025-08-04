@@ -5,8 +5,11 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
@@ -35,13 +38,27 @@ public class BaseClass {
      * - Starts logging session
      */
     @BeforeClass
-    public void setUp() {
+    @Parameters({"OS", "browser"})
+    public void setUp(String os, String br) {
         // Initialize logger using Log4j2
         logger = LogManager.getLogger(this.getClass());
 
-        // Launch Chrome browser
-        driver = new ChromeDriver();
-        logger.info("Chrome browser launched.");
+        // Launch browser
+        switch(br.toLowerCase()){
+            case "chrome": driver = new ChromeDriver();
+                           logger.info("Chrome browser launched.");
+                           break;
+            case "edge": driver = new EdgeDriver();
+                           logger.info("Edge browser launched.");
+                           break;
+            case "firefox": driver = new FirefoxDriver();
+                logger.info("Firefox browser launched.");
+                break;
+            default:
+                System.out.println("Invalid browser name...");
+                return;
+        }
+
 
         // Clear cookies for a clean session
         driver.manage().deleteAllCookies();
