@@ -71,7 +71,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
         logger.info("Confirmation message received: " + confirmMsg);
 
         try {
-            Assert.assertEquals(confirmMsg, "You Account Has Been Created!");
+            Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
             logger.info("✅ Account registration test passed");
         } catch (AssertionError e) {
             logger.error("❌ Test failed — Expected confirmation not received", e);
