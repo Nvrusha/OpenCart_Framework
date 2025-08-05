@@ -6,7 +6,7 @@
   Purpose: Entry point for executing full regression across all supported environments/browsers.
   Currently configured to run Account Registration Test on Chrome (Windows OS).
 -->
-<suite name="MasterRegressionSuite" parallel="tests" thread-count="2">
+<suite name="MasterRegressionSuite">
 
     <!--
       Test Block: Chrome on Windows
@@ -18,6 +18,7 @@
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="testCases.TC001_AccountRegistrationTest"/>
+            <class name="testCases.TC002_LoginTest"/>
         </classes>
     </test>
 
