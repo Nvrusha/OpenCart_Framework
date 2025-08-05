@@ -29,6 +29,12 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//a[text()='Register']")
     WebElement lnkRegister;
 
+    // Locate the "login" link using its visible text
+    @FindBy(xpath = "//a[text()='Login']")
+    WebElement lnkLogin;
+
+
+
     // ----------- Page Actions (Reusable Methods) -----------
 
     // Method to click on the "My Account" link
@@ -39,5 +45,10 @@ public class HomePage extends BasePage {
     // Method to click on the "Register" link
     public void clickRegister (){
         lnkRegister.click();  // Simulates user clicking on the "Register" option
+    }
+
+    // Method to click on the "Login" link
+    public void clickLogin (){
+        lnkLogin.click();  // Simulates user clicking on the "Register" option
     }
 }
