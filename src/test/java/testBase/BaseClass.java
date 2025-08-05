@@ -10,8 +10,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 /**
  * BaseClass: Contains setup, teardown, and reusable utility methods.
@@ -26,6 +28,7 @@ public class BaseClass {
 
     public WebDriver driver;           // Shared WebDriver instance
     public Logger logger;             // Log4j2 logger instance
+    public Properties p;              // Properties object to store key-value pairs loaded from config file
 
     /**
      * Initializes browser and test environment before test class execution.
@@ -35,7 +38,21 @@ public class BaseClass {
      */
     @BeforeClass
     @Parameters({"OS", "browser"})
-    public void setUp(String os, String br) {
+    public void setUp(String os, String br) throws IOException {
+
+        // ========================== Load Config Properties ==========================
+
+        // Load the configuration file from the relative path in the project structure.
+        // This file contains key-value pairs like base URL, credentials, timeouts, etc.
+        FileReader file = new FileReader("./src/test/resources/config.properties");
+
+        // Create a new Properties object
+        p = new Properties();
+
+        // Load properties from the file into memory
+        p.load(file);
+
+        // ===========================================================================
 
         // Initialize logger
         logger = LogManager.getLogger(this.getClass());
@@ -66,8 +83,9 @@ public class BaseClass {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         logger.info("Implicit wait of 10 seconds applied.");
 
-        // Launch application
-        driver.get("https://tutorialsninja.com/demo/index.php?route=common/home");
+        // Launch application using value from config.properties
+        // Reads the URL value associated with key "appURL"
+        driver.get(p.getProperty("appURL"));
         logger.info("Navigated to application URL.");
 
         // Maximize window
