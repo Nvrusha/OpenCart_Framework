@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="5th Aug 2025">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MyAccountPage.java" afterDir="false" />
+    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="7th Aug 2025">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754365424198</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="7th Aug 2025">
+      <option name="closed" value="true" />
+      <created>1754536977065</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1754536977065</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -356,6 +363,7 @@
     <MESSAGE value="2nd Aug 2025" />
     <MESSAGE value="4th Aug 2025" />
     <MESSAGE value="5th Aug 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="5th Aug 2025" />
+    <MESSAGE value="7th Aug 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="7th Aug 2025" />
   </component>
 </project>
