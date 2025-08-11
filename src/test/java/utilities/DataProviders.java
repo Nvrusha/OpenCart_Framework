@@ -21,7 +21,7 @@ public class DataProviders {
     public String[][] getData() throws IOException {
 
         // Path to the Excel file (placed in src/test/resources/testData folder)
-        String path = "./src/test/resources/testData/LoginData.xlsx";
+        String path = "./testData/Opencart_LoginData.xlsx";
 
         // Create an instance of ExcelUtility with the given file path
         ExcelUtility xlUtil = new ExcelUtility(path);
