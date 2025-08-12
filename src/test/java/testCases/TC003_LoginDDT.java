@@ -19,7 +19,7 @@ public class TC003_LoginDDT extends BaseClass {
      * @param pwd   - Login password from Excel
      * @param exp   - Expected result ("Valid" or "Invalid") from Excel
      */
-    @Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, groups = "DataDriven")
     public void verify_LoginDDT(String email, String pwd, String exp) {
 
         logger.info("=== Starting TC003: Account Login DDT Test ===");
