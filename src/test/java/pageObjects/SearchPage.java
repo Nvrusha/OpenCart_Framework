@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class SearchPage extends BasePage {
 
     public SearchPage(WebDriver driver){
@@ -12,20 +14,19 @@ public class SearchPage extends BasePage {
 
     // ----------- Page Elements (Located using XPath) -----------
 
-    @FindBy(name = "search")
-    WebElement txtSearchBox;
-
-    @FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
-    WebElement btnSearch;
+    @FindBy(css = "div.product-thumb h4 a")
+    List<WebElement> productList;
 
     // ---------- Page Actions ----------
 
-    public void enterSearchText(String productName){
-        txtSearchBox.clear();
-        txtSearchBox.sendKeys(productName);
+    public boolean isProductInResults(String productName){
+        for(WebElement product : productList){
+            if (product.getText().equalsIgnoreCase(productName)){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public void clickSearchButton(){
-        btnSearch.click();
-    }
+
 }
