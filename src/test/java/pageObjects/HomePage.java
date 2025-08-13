@@ -1,54 +1,82 @@
 // This class belongs to the pageObjects package
 package pageObjects;
 
-// Import Selenium's WebDriver to control the browser
 import org.openqa.selenium.WebDriver;
-
-// Import WebElement so we can define clickable elements
 import org.openqa.selenium.WebElement;
-
-// Import FindBy for locating elements using XPath
 import org.openqa.selenium.support.FindBy;
 
-// HomePage class extends BasePage to reuse common WebDriver setup and element initialization
+/**
+ * HomePage:
+ * Represents the Home Page of the OpenCart application.
+ * Contains elements for navigation (My Account, Register, Login) and search functionality.
+ * Extends BasePage to reuse WebDriver initialization and PageFactory element setup.
+ */
 public class HomePage extends BasePage {
 
-    // Constructor for HomePage
-    // It accepts a WebDriver and passes it to the BasePage using 'super'
-    public HomePage(WebDriver driver){
-        super(driver);  // This initializes the driver and WebElements in the parent class
+    // Constructor: Accepts WebDriver instance from test class and passes it to BasePage
+    public HomePage(WebDriver driver) {
+        super(driver);
     }
 
-    // ----------- Page Elements (Located using XPath) -----------
+    // ----------- Page Elements (Located using XPath or name) -----------
 
-    // Locate the "My Account" link using its title attribute
+    // "My Account" link on the top menu
     @FindBy(xpath = "//a[@title=\"My Account\"]")
     WebElement lnkMyAccount;
 
-    // Locate the "Register" link using its visible text
+    // "Register" link inside the My Account dropdown
     @FindBy(xpath = "//a[text()='Register']")
     WebElement lnkRegister;
 
-    // Locate the "login" link using its visible text
+    // "Login" link inside the My Account dropdown
     @FindBy(xpath = "//a[text()='Login']")
     WebElement lnkLogin;
 
+    // Search text box on the home page (where product name is entered)
+    @FindBy(name = "search")
+    WebElement txtSearchBox;
+
+    // Search button (magnifying glass icon) next to the search text box
+    @FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
+    WebElement btnSearch;
 
 
     // ----------- Page Actions (Reusable Methods) -----------
 
-    // Method to click on the "My Account" link
-    public void clickMyAccount (){
-        lnkMyAccount.click();  // Simulates user clicking on the "My Account" dropdown
+    /**
+     * Clicks on the "My Account" link to open the dropdown menu.
+     */
+    public void clickMyAccount() {
+        lnkMyAccount.click();
     }
 
-    // Method to click on the "Register" link
-    public void clickRegister (){
-        lnkRegister.click();  // Simulates user clicking on the "Register" option
+    /**
+     * Clicks on the "Register" link in the My Account dropdown.
+     */
+    public void clickRegister() {
+        lnkRegister.click();
     }
 
-    // Method to click on the "Login" link
-    public void clickLogin (){
-        lnkLogin.click();  // Simulates user clicking on the "Register" option
+    /**
+     * Clicks on the "Login" link in the My Account dropdown.
+     */
+    public void clickLogin() {
+        lnkLogin.click();
+    }
+
+    /**
+     * Enters the product name into the search text box.
+     * @param productName Name of the product to search for
+     */
+    public void enterSearchText(String productName) {
+        txtSearchBox.clear(); // Clear any existing text
+        txtSearchBox.sendKeys(productName); // Type the product name
+    }
+
+    /**
+     * Clicks on the search button to perform the product search.
+     */
+    public void clickSearchButton() {
+        btnSearch.click();
     }
 }
