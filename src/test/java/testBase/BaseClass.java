@@ -33,10 +33,10 @@ public class BaseClass {
     /**
      * Initializes browser and test environment before test class execution.
      *
-     * @param os       Operating system passed from testng.xml (currently unused but useful for grid/docker)
+     * @param os       Operating system passed from grouping.xml (currently unused but useful for grid/docker)
      * @param br       Browser name (e.g., "chrome", "firefox", "edge")
      */
-    @BeforeClass
+    @BeforeClass(groups = {"Sanity", "Regression","Master", "DataDriven"})
     @Parameters({"OS", "browser"})
     public void setUp(String os, String br) throws IOException {
 

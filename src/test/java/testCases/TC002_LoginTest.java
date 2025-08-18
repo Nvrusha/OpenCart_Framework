@@ -19,7 +19,7 @@ import testBase.BaseClass;
  */
 public class TC002_LoginTest extends BaseClass {
 
-    @Test(groups = {"Sanity","Regression", "Master"})
+    @Test(groups = {"Sanity","Master"})
     public void verifyLogin() {
 
         logger.info("=== Starting TC002: Account Login Test ===");

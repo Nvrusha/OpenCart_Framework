@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+  TestNG Grouping Suite
+  Purpose:
+    - Demonstrates how to include or exclude groups when running tests.
+    - Groups help organize test methods logically (e.g., Sanity, Regression, Smoke).
+-->
+
+<suite name="GroupingSuite">
+
+    <!--
+      Group Filtering:
+        - <include> → Only methods/classes marked with this group will run.
+        - <exclude> → Any methods/classes marked with this group will be skipped.
+      Current Setup:
+        - Runs only "Sanity" group.
+        - Skips all "Master" group tests.
+    -->
+    <groups>
+        <run>
+            <include name="Sanity"/>
+            <exclude name="Master"/>
+        </run>
+    </groups>
+
+    <!--
+      Example Test Block:
+        - Runs tests in the listed classes.
+        - Within each class, only @Test methods belonging to the included groups
+          ("Sanity") will execute, while excluded groups ("Master") will be skipped.
+    -->
+    <test name="Chrome-SanityOnly">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+            <class name="testCases.TC002_LoginTest"/>
+            <class name="testCases.TC003_LoginDDT"/>
+            <class name="testCases.TC004_SearchProductTest"/>
+        </classes>
+    </test>
+
+</suite>
