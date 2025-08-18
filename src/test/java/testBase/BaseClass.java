@@ -36,7 +36,7 @@ public class BaseClass {
      * @param os       Operating system passed from grouping.xml (currently unused but useful for grid/docker)
      * @param br       Browser name (e.g., "chrome", "firefox", "edge")
      */
-    @BeforeClass(groups = {"Sanity", "Regression","Master", "DataDriven"})
+    @BeforeClass(groups = {"Sanity", "Regression","Master"})
     @Parameters({"OS", "browser"})
     public void setUp(String os, String br) throws IOException {
 
@@ -100,7 +100,7 @@ public class BaseClass {
      * - Ensures the WebDriver session is properly closed to release system resources.
      * - Handles both successful and failed setup scenarios gracefully.
      */
-    @AfterClass
+    @AfterClass(groups = {"Sanity", "Regression","Master"})
     public void tearDown() {
 
         // Check if the WebDriver was successfully initialized

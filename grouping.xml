@@ -20,8 +20,8 @@
     -->
     <groups>
         <run>
-            <include name="Sanity"/>
-            <exclude name="Master"/>
+            <include name="Regression"/>
+            <exclude name="DataDriven"/>
         </run>
     </groups>
 
