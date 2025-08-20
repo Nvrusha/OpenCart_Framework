@@ -3,6 +3,8 @@ package testBase;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -10,9 +12,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
 /**
@@ -137,4 +143,32 @@ public class BaseClass {
     public String randomAlphaNumeric() {
         return RandomStringUtils.randomAlphabetic(5) + RandomStringUtils.randomNumeric(3);
     }
+
+
+    // Utility method to capture a screenshot and return its saved file path
+    public String captureScreen(String tname) throws IOException {
+
+        // Create a timestamp to make screenshot filenames unique (avoids overwriting)
+        String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+
+        // Cast WebDriver instance to TakesScreenshot (since driver supports screenshots)
+        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+
+        // Capture screenshot as a temporary file (stored in default temp location)
+        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+
+        // Build the target file path where the screenshot will be saved
+        // ProjectRoot/screenshots/<testname timestamp>
+        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + " " + timestamp;
+
+        // Create a new File object pointing to the target file path
+        File targetFile = new File(targetFilePath);
+
+        // Move the temporary screenshot file to the desired target location
+        sourceFile.renameTo(targetFile);
+
+        // Return the full path of the saved screenshot for logging/reporting
+        return targetFilePath;
+    }
+
 }
