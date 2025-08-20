@@ -32,7 +32,7 @@ import java.util.Properties;
  */
 public class BaseClass {
 
-    public WebDriver driver;           // Shared WebDriver instance
+    public static WebDriver driver;    // Shared WebDriver instance
     public Logger logger;             // Log4j2 logger instance
     public Properties p;              // Properties object to store key-value pairs loaded from config file
 

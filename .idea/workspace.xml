@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="20th Aug 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrossBrowserTesting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CrossBrowserTesting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grouping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grouping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC004_SearchProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC004_SearchProductTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753367864001</updated>
-    </task>
-    <task id="LOCAL-00003" summary="25th July 2025">
-      <option name="closed" value="true" />
-      <created>1753415596679</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1753415596679</updated>
     </task>
     <task id="LOCAL-00004" summary="30th July 2025">
       <option name="closed" value="true" />
@@ -465,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755659362337</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="20th Aug 2025">
+      <option name="closed" value="true" />
+      <created>1755660776995</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1755660776996</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

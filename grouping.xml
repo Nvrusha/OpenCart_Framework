@@ -26,6 +26,24 @@
     </groups>
 
     <!--
+   The <listeners> tag is used to register TestNG listeners.
+   A listener is a class that implements one of the TestNG listener interfaces
+   (like ITestListener, ISuiteListener, etc.) to track the events during test execution.
+
+   In this case, we are registering the ExtentReportManager class,
+   which implements ITestListener to generate ExtentReports.
+
+   This ensures that before, during, and after the execution of test methods,
+   the listener will capture results (success, failure, skipped),
+   generate logs, attach screenshots, and finally create an HTML report.
+-->
+    <listeners>
+        <!-- Listener class for managing Extent Reports -->
+        <listener class-name="utilities.ExtentReportManager"></listener>
+    </listeners>
+
+
+    <!--
       Example Test Block:
         - Runs tests in the listed classes.
         - Within each class, only @Test methods belonging to the included groups
