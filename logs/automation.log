@@ -1,586 +1,812 @@
-2025-08-21 08:36:21 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
-2025-08-21 08:36:21 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml
-
-2025-08-21 08:36:25 INFO  TC001_AccountRegistrationTest:70 - Chrome browser launched.
-2025-08-21 08:36:26 INFO  TC001_AccountRegistrationTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:36:26 INFO  TC001_AccountRegistrationTest:95 - Navigated to application URL.
-2025-08-21 08:36:26 INFO  TC001_AccountRegistrationTest:99 - Browser window maximized.
-2025-08-21 08:36:26 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
-2025-08-21 08:36:26 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
-2025-08-21 08:36:27 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
-2025-08-21 08:36:28 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
-2025-08-21 08:36:28 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
-2025-08-21 08:36:28 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: MYMIC, LastName: MLVPV, Email: iQIbA@gmail.com, Phone: 4885431535, Password: ocYKS020
-2025-08-21 08:36:28 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
-2025-08-21 08:36:29 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
-2025-08-21 08:36:29 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
-2025-08-21 08:36:29 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
-2025-08-21 08:36:29 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
-2025-08-21 08:36:30 INFO  TC001_AccountRegistrationTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:36:31 INFO  TC002_LoginTest:70 - Chrome browser launched.
-2025-08-21 08:36:31 INFO  TC002_LoginTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:36:32 INFO  TC002_LoginTest:95 - Navigated to application URL.
-2025-08-21 08:36:37 INFO  TC002_LoginTest:99 - Browser window maximized.
-2025-08-21 08:36:37 INFO  TC002_LoginTest:25 - === Starting TC002: Account Login Test ===
-2025-08-21 08:36:37 INFO  TC002_LoginTest:32 - Navigated to Login Page.
-2025-08-21 08:36:38 INFO  TC002_LoginTest:39 - Login form submitted with valid credentials.
-2025-08-21 08:36:39 INFO  TC002_LoginTest:47 - ✅ Login test passed - My Account page is visible.
-2025-08-21 08:36:39 INFO  TC002_LoginTest:54 - === TC002: Account Login Test Completed ===
-2025-08-21 08:36:39 INFO  TC002_LoginTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:36:40 INFO  TC003_LoginDDT:70 - Chrome browser launched.
-2025-08-21 08:36:40 INFO  TC003_LoginDDT:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:36:40 INFO  TC003_LoginDDT:95 - Navigated to application URL.
-2025-08-21 08:36:40 INFO  TC003_LoginDDT:99 - Browser window maximized.
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:36:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:36:42 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:36:42 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:36:42 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:36:42 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: pavanoltraining@gmail.com / test@123
-2025-08-21 08:36:52 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
-2025-08-21 08:36:52 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:36:52 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:36:53 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:36:53 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: lakshmi@yahoo.com / Laxmi
-2025-08-21 08:36:54 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
-2025-08-21 08:36:54 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:36:54 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:36:55 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:36:55 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: laksh@yahoo.com / Lakshmi
-2025-08-21 08:36:56 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
-2025-08-21 08:36:56 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:36:56 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:36:56 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:36:56 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: laks@yahoo.com / xyz
-2025-08-21 08:37:06 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
-2025-08-21 08:37:06 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:37:06 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:37:07 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:37:07 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: abc123@gmail.com / test@123
-2025-08-21 08:37:08 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
-2025-08-21 08:37:08 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:37:08 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:37:09 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:37:09 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: nivangunevrushali.vn@gmail.com / Vrusha123$
-2025-08-21 08:37:10 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
-2025-08-21 08:37:10 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:37:10 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:37:10 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:37:10 INFO  TC003_LoginDDT:39 - Login form submitted with credentials:  / Vrusha123$
-2025-08-21 08:37:20 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
-2025-08-21 08:37:20 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:37:20 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:37:21 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:37:21 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: nivangunevrushali.vn@gmail.com / 
-2025-08-21 08:37:31 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
-2025-08-21 08:37:31 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:37:31 INFO  TC003_LoginDDT:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:37:32 INFO  TC004_SearchProductTest:70 - Chrome browser launched.
-2025-08-21 08:37:32 INFO  TC004_SearchProductTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:37:33 INFO  TC004_SearchProductTest:95 - Navigated to application URL.
-2025-08-21 08:37:33 INFO  TC004_SearchProductTest:99 - Browser window maximized.
-2025-08-21 08:37:33 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
-2025-08-21 08:37:33 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
-2025-08-21 08:37:44 INFO  TC004_SearchProductTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:50:40 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml"
-2025-08-21 08:50:40 INFO  Utils:112 - [TestNG] Running:
+2025-08-27 20:11:57 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml"
+2025-08-27 20:11:57 INFO  Utils:112 - [TestNG] Running:
   C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml
 
-2025-08-21 08:50:42 INFO  TC001_AccountRegistrationTest:70 - Chrome browser launched.
-2025-08-21 08:50:42 INFO  TC001_AccountRegistrationTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:50:43 INFO  TC001_AccountRegistrationTest:95 - Navigated to application URL.
-2025-08-21 08:50:43 INFO  TC001_AccountRegistrationTest:99 - Browser window maximized.
-2025-08-21 08:50:43 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
-2025-08-21 08:50:43 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
-2025-08-21 08:50:43 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
-2025-08-21 08:50:43 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
-2025-08-21 08:50:43 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
-2025-08-21 08:50:43 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: LXPFD, LastName: NDRZZ, Email: VeYVd@gmail.com, Phone: 0297838338, Password: uaJQM652
-2025-08-21 08:50:44 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
-2025-08-21 08:50:44 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
-2025-08-21 08:50:45 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
-2025-08-21 08:50:45 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
-2025-08-21 08:50:45 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
-2025-08-21 08:50:45 INFO  TC001_AccountRegistrationTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:50:46 INFO  TC004_SearchProductTest:70 - Chrome browser launched.
-2025-08-21 08:50:46 INFO  TC004_SearchProductTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:50:47 INFO  TC004_SearchProductTest:95 - Navigated to application URL.
-2025-08-21 08:50:47 INFO  TC004_SearchProductTest:99 - Browser window maximized.
-2025-08-21 08:50:47 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
-2025-08-21 08:50:47 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
-2025-08-21 08:50:58 INFO  TC004_SearchProductTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:52:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\testng.xml"
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-08-21 08:52:47 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\visha\IdeaProjects\OpenCart_Framework\testng.xml
-
-2025-08-21 08:52:47 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:52:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:52:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:52:48 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@57b9e423: 0 ms
-2025-08-21 08:57:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
-2025-08-21 08:57:31 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml
-
-2025-08-21 08:57:32 INFO  TC001_AccountRegistrationTest:70 - Chrome browser launched.
-2025-08-21 08:57:32 INFO  TC001_AccountRegistrationTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:57:33 INFO  TC001_AccountRegistrationTest:95 - Navigated to application URL.
-2025-08-21 08:57:33 INFO  TC001_AccountRegistrationTest:99 - Browser window maximized.
-2025-08-21 08:57:33 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
-2025-08-21 08:57:33 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
-2025-08-21 08:57:33 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
-2025-08-21 08:57:33 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
-2025-08-21 08:57:33 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
-2025-08-21 08:57:33 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: DGKNZ, LastName: XHNCZ, Email: cVLVG@gmail.com, Phone: 2736797271, Password: yKoTF952
-2025-08-21 08:57:34 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
-2025-08-21 08:57:35 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
-2025-08-21 08:57:35 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
-2025-08-21 08:57:35 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
-2025-08-21 08:57:35 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
-2025-08-21 08:57:35 INFO  TC001_AccountRegistrationTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:57:36 INFO  TC002_LoginTest:70 - Chrome browser launched.
-2025-08-21 08:57:36 INFO  TC002_LoginTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:57:37 INFO  TC002_LoginTest:95 - Navigated to application URL.
-2025-08-21 08:57:37 INFO  TC002_LoginTest:99 - Browser window maximized.
-2025-08-21 08:57:37 INFO  TC002_LoginTest:25 - === Starting TC002: Account Login Test ===
-2025-08-21 08:57:37 INFO  TC002_LoginTest:32 - Navigated to Login Page.
-2025-08-21 08:57:37 INFO  TC002_LoginTest:39 - Login form submitted with valid credentials.
-2025-08-21 08:57:38 INFO  TC002_LoginTest:47 - ✅ Login test passed - My Account page is visible.
-2025-08-21 08:57:38 INFO  TC002_LoginTest:54 - === TC002: Account Login Test Completed ===
-2025-08-21 08:57:38 INFO  TC002_LoginTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:57:39 INFO  TC003_LoginDDT:70 - Chrome browser launched.
-2025-08-21 08:57:39 INFO  TC003_LoginDDT:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:57:40 INFO  TC003_LoginDDT:95 - Navigated to application URL.
-2025-08-21 08:57:40 INFO  TC003_LoginDDT:99 - Browser window maximized.
-2025-08-21 08:57:40 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:40 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:40 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-08-21 08:57:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-08-21 08:57:41 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-2025-08-21 08:57:41 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:57:41 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:57:42 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: pavanoltraining@gmail.com / test@123
-2025-08-21 08:57:54 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
-2025-08-21 08:57:54 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:57:54 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:57:54 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:57:54 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: lakshmi@yahoo.com / Laxmi
-2025-08-21 08:57:55 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
-2025-08-21 08:57:55 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:57:55 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:57:56 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:57:56 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: laksh@yahoo.com / Lakshmi
-2025-08-21 08:57:57 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
-2025-08-21 08:57:57 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:57:57 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:57:57 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:57:58 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: laks@yahoo.com / xyz
-2025-08-21 08:58:08 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
-2025-08-21 08:58:08 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:58:08 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:58:08 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:58:09 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: abc123@gmail.com / test@123
-2025-08-21 08:58:10 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
-2025-08-21 08:58:10 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:58:10 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:58:10 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:58:10 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: nivangunevrushali.vn@gmail.com / Vrusha123$
-2025-08-21 08:58:11 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
-2025-08-21 08:58:11 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:58:11 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:58:12 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:58:12 INFO  TC003_LoginDDT:39 - Login form submitted with credentials:  / Vrusha123$
-2025-08-21 08:58:22 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
-2025-08-21 08:58:22 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:58:22 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
-2025-08-21 08:58:22 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
-2025-08-21 08:58:22 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: nivangunevrushali.vn@gmail.com / 
-2025-08-21 08:58:33 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
-2025-08-21 08:58:33 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
-2025-08-21 08:58:33 INFO  TC003_LoginDDT:115 - Browser closed and WebDriver session ended.
-2025-08-21 08:58:34 INFO  TC004_SearchProductTest:70 - Chrome browser launched.
-2025-08-21 08:58:34 INFO  TC004_SearchProductTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 08:58:35 INFO  TC004_SearchProductTest:95 - Navigated to application URL.
-2025-08-21 08:58:35 INFO  TC004_SearchProductTest:99 - Browser window maximized.
-2025-08-21 08:58:35 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
-2025-08-21 08:58:35 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
-2025-08-21 08:58:46 INFO  TC004_SearchProductTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 09:01:08 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml"
-2025-08-21 09:01:08 INFO  Utils:112 - [TestNG] Running:
+2025-08-27 20:12:04 INFO  TC001_AccountRegistrationTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:12:04 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:12:06 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:12:06 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:12:06 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:12:06 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:12:06 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:12:07 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:12:07 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:12:07 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: GXCSB, LastName: GDEZL, Email: otCVV@gmail.com, Phone: 2085491535, Password: ofmVk335
+2025-08-27 20:12:08 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:12:09 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:12:09 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:12:09 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:12:09 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:12:09 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:12:10 INFO  TC004_SearchProductTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:12:10 INFO  TC004_SearchProductTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:12:11 INFO  TC004_SearchProductTest:138 - Navigated to application URL.
+2025-08-27 20:12:11 INFO  TC004_SearchProductTest:142 - Browser window maximized.
+2025-08-27 20:12:11 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
+2025-08-27 20:12:12 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
+2025-08-27 20:12:12 INFO  TC004_SearchProductTest:32 - === TC004: Product Search Test Completed ===
+2025-08-27 20:12:12 INFO  TC004_SearchProductTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:13:49 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml"
+2025-08-27 20:13:50 INFO  Utils:112 - [TestNG] Running:
   C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml
 
-2025-08-21 09:01:10 INFO  TC001_AccountRegistrationTest:70 - Chrome browser launched.
-2025-08-21 09:01:10 INFO  TC001_AccountRegistrationTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 09:01:11 INFO  TC001_AccountRegistrationTest:95 - Navigated to application URL.
-2025-08-21 09:01:11 INFO  TC001_AccountRegistrationTest:99 - Browser window maximized.
-2025-08-21 09:01:11 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
-2025-08-21 09:01:11 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
-2025-08-21 09:01:11 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
-2025-08-21 09:01:12 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
-2025-08-21 09:01:12 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
-2025-08-21 09:01:12 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: QSNJZ, LastName: JJABG, Email: ikcBK@gmail.com, Phone: 6723979500, Password: Lhbsd701
-2025-08-21 09:01:12 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
-2025-08-21 09:01:14 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
-2025-08-21 09:01:14 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
-2025-08-21 09:01:14 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
-2025-08-21 09:01:14 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
-2025-08-21 09:01:14 INFO  TC001_AccountRegistrationTest:115 - Browser closed and WebDriver session ended.
-2025-08-21 09:01:15 INFO  TC004_SearchProductTest:70 - Chrome browser launched.
-2025-08-21 09:01:15 INFO  TC004_SearchProductTest:90 - Implicit wait of 10 seconds applied.
-2025-08-21 09:01:16 INFO  TC004_SearchProductTest:95 - Navigated to application URL.
-2025-08-21 09:01:16 INFO  TC004_SearchProductTest:99 - Browser window maximized.
-2025-08-21 09:01:16 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
-2025-08-21 09:01:17 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
-2025-08-21 09:01:27 INFO  TC004_SearchProductTest:115 - Browser closed and WebDriver session ended.
+2025-08-27 20:13:52 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:13:52 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:13:53 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:13:53 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:13:53 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:13:53 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:13:53 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:13:54 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:13:54 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:13:54 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: ZHVJH, LastName: XMMSI, Email: ttUBS@gmail.com, Phone: 1361983916, Password: reIKb883
+2025-08-27 20:13:54 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:13:55 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:13:55 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:13:55 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:13:55 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:13:55 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:13:56 INFO  TC004_SearchProductTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:13:56 INFO  TC004_SearchProductTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:13:58 INFO  TC004_SearchProductTest:138 - Navigated to application URL.
+2025-08-27 20:13:58 INFO  TC004_SearchProductTest:142 - Browser window maximized.
+2025-08-27 20:13:58 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
+2025-08-27 20:13:58 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
+2025-08-27 20:13:58 INFO  TC004_SearchProductTest:32 - === TC004: Product Search Test Completed ===
+2025-08-27 20:13:59 INFO  TC004_SearchProductTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:14:24 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml"
+2025-08-27 20:14:25 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml
+
+2025-08-27 20:14:27 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:14:27 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:14:28 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:14:28 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:14:28 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:14:28 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:14:28 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:14:28 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:14:28 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:14:28 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: QOXSJ, LastName: XORBD, Email: ohRiA@gmail.com, Phone: 6400081815, Password: vMnpj384
+2025-08-27 20:14:29 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:14:30 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:14:30 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:14:30 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:14:30 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:14:30 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:14:31 INFO  TC004_SearchProductTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:14:31 INFO  TC004_SearchProductTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:14:32 INFO  TC004_SearchProductTest:138 - Navigated to application URL.
+2025-08-27 20:14:32 INFO  TC004_SearchProductTest:142 - Browser window maximized.
+2025-08-27 20:14:32 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
+2025-08-27 20:14:32 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
+2025-08-27 20:14:32 INFO  TC004_SearchProductTest:32 - === TC004: Product Search Test Completed ===
+2025-08-27 20:14:32 INFO  TC004_SearchProductTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:16:18 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:16:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:16:23 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:16:23 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:16:28 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:16:28 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:16:28 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:16:28 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:16:28 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:16:29 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:16:29 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:16:29 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: CKCZL, LastName: GDHBE, Email: qlZWg@gmail.com, Phone: 6888458256, Password: ChPop304
+2025-08-27 20:16:30 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:16:30 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:16:31 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:16:31 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:16:31 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:16:31 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:16:32 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:17:45 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:17:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:17:47 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:17:47 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:17:48 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:17:48 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:17:48 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:17:48 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:17:49 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:17:49 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:17:49 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:17:49 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:17:49 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:17:49 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:17:49 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:17:50 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:19:16 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:19:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:19:20 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:19:20 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:19:20 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:19:20 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:19:21 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:19:21 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:19:21 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:19:21 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:19:21 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:19:21 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:19:21 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:19:21 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:19:21 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:19:21 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:20:11 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:20:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:20:13 INFO  TC001_AccountRegistrationTest:118 - ✅ Edge browser launched locally.
+2025-08-27 20:20:13 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:20:14 INFO  TC001_AccountRegistrationTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:20:14 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:20:14 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:20:16 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:20:17 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:20:17 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:20:17 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:20:17 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:20:17 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:20:17 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:20:17 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:20:17 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:20:19 INFO  TC001_AccountRegistrationTest:114 - ✅ Firefox browser launched locally.
+2025-08-27 20:20:19 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:20:20 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:20:20 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:20:20 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:20:20 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:20:21 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:20:21 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:20:21 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:20:21 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: UVHNB, LastName: CXNBO, Email: fHMMX@gmail.com, Phone: 8360063035, Password: TshZI884
+2025-08-27 20:20:22 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:20:22 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:20:22 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:20:22 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:20:22 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:20:24 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:20:27 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:20:37 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:22:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml"
+2025-08-27 20:22:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml
+
+2025-08-27 20:22:32 INFO  TC001_AccountRegistrationTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:22:33 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:22:33 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:22:33 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:22:33 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:22:33 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:22:34 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:22:34 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:22:34 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:22:34 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: CFFFT, LastName: NXRHZ, Email: FUSWK@gmail.com, Phone: 7103323197, Password: fXaNw315
+2025-08-27 20:22:34 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:22:34 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:22:35 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:22:35 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:22:35 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:22:35 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:22:36 INFO  TC004_SearchProductTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:22:36 INFO  TC004_SearchProductTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:22:37 INFO  TC004_SearchProductTest:138 - Navigated to application URL.
+2025-08-27 20:22:37 INFO  TC004_SearchProductTest:142 - Browser window maximized.
+2025-08-27 20:22:37 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
+2025-08-27 20:22:38 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
+2025-08-27 20:22:38 INFO  TC004_SearchProductTest:32 - === TC004: Product Search Test Completed ===
+2025-08-27 20:22:38 INFO  TC004_SearchProductTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:22:58 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:22:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:23:00 INFO  TC001_AccountRegistrationTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:23:00 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:23:00 INFO  TC001_AccountRegistrationTest:118 - ✅ Edge browser launched locally.
+2025-08-27 20:23:00 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:23:01 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:23:01 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:23:01 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:23:01 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:23:01 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:23:01 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:23:01 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:23:01 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:23:02 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:23:02 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:23:04 INFO  TC001_AccountRegistrationTest:114 - ✅ Firefox browser launched locally.
+2025-08-27 20:23:04 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:23:06 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:23:06 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:23:06 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:23:06 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:23:06 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:23:06 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:23:06 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:23:06 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: XWNBC, LastName: KJEDG, Email: uoTDL@gmail.com, Phone: 2070450317, Password: VtjGB776
+2025-08-27 20:23:07 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:23:08 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:23:08 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:23:08 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:23:08 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:23:09 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:23:12 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:23:22 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:30:09 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:30:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:30:14 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:30:14 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:30:55 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:30:55 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:30:55 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:30:55 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:30:55 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:30:56 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:30:56 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:30:56 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: KWQMR, LastName: RJENY, Email: DsEuX@gmail.com, Phone: 2986845121, Password: oCglr937
+2025-08-27 20:30:56 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:30:57 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:30:57 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:30:57 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:30:57 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:30:57 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:31:17 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:31:17 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:31:18 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:31:18 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:31:18 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:31:18 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:31:18 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:31:19 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:31:19 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:31:19 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: WYRQB, LastName: PACQG, Email: zhoNW@gmail.com, Phone: 2292165278, Password: YHAPm014
+2025-08-27 20:31:19 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:31:20 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:31:20 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:31:20 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:31:20 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:31:21 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:32:50 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:32:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:32:53 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:32:53 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:32:54 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:32:54 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:32:54 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:32:54 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:32:54 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:32:55 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:32:55 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:32:55 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: ZSPRV, LastName: QZLKV, Email: vWAPN@gmail.com, Phone: 0267337473, Password: QAIqr025
+2025-08-27 20:32:55 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:32:56 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:32:56 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:32:56 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:32:56 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:32:56 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:32:56 INFO  TC001_AccountRegistrationTest:102 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:32:56 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:32:57 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:32:57 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:32:57 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:32:57 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:32:57 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:32:58 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:32:58 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:32:58 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: FDJDX, LastName: KZDQO, Email: pBjjO@gmail.com, Phone: 2830968598, Password: mQfiW984
+2025-08-27 20:32:58 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:32:58 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:32:59 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:32:59 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:32:59 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:32:59 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:33:46 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:33:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:33:49 INFO  TC001_AccountRegistrationTest:118 - ✅ Edge browser launched locally.
+2025-08-27 20:33:49 INFO  TC001_AccountRegistrationTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:33:49 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:33:49 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:33:58 INFO  TC001_AccountRegistrationTest:114 - ✅ Firefox browser launched locally.
+2025-08-27 20:33:58 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:34:10 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:34:10 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:34:10 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:34:10 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:34:10 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:34:11 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:34:11 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:34:11 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: PTZMZ, LastName: XIJGW, Email: cYRat@gmail.com, Phone: 8274659725, Password: btJdu399
+2025-08-27 20:34:11 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:34:12 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:34:12 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:34:12 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:34:12 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:34:13 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:34:48 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:34:48 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:37:05 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:37:05 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:37:07 INFO  TC001_AccountRegistrationTest:118 - ✅ Edge browser launched locally.
+2025-08-27 20:37:07 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:37:07 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:37:08 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:37:08 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:37:08 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:37:08 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:37:09 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:37:09 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:37:09 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: OHYCM, LastName: LVAJF, Email: QBxQq@gmail.com, Phone: 9558467634, Password: BtOzH970
+2025-08-27 20:37:10 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:37:10 INFO  TC001_AccountRegistrationTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:37:10 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:37:11 INFO  TC001_AccountRegistrationTest:114 - ✅ Firefox browser launched locally.
+2025-08-27 20:37:11 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:37:14 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:37:18 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:37:18 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:37:18 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:37:18 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:37:18 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:37:18 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:37:18 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:37:19 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:37:19 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:37:20 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:37:58 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml"
+2025-08-27 20:37:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grouping.xml
+
+2025-08-27 20:38:00 INFO  TC001_AccountRegistrationTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:38:00 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:38:01 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:38:01 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:38:01 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:38:01 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:38:01 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:38:02 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:38:02 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:38:02 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: SBTIN, LastName: ULSKA, Email: QtkmZ@gmail.com, Phone: 2031409161, Password: MCcFC990
+2025-08-27 20:38:03 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:38:03 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:38:04 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:38:04 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:38:04 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:38:04 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:38:05 INFO  TC004_SearchProductTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:38:05 INFO  TC004_SearchProductTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:38:13 INFO  TC004_SearchProductTest:138 - Navigated to application URL.
+2025-08-27 20:38:13 INFO  TC004_SearchProductTest:142 - Browser window maximized.
+2025-08-27 20:38:13 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
+2025-08-27 20:38:24 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
+2025-08-27 20:38:24 INFO  TC004_SearchProductTest:32 - === TC004: Product Search Test Completed ===
+2025-08-27 20:38:24 INFO  TC004_SearchProductTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:38:35 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
+2025-08-27 20:38:35 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml
+
+2025-08-27 20:38:36 INFO  TC001_AccountRegistrationTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:38:37 INFO  TC001_AccountRegistrationTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:38:38 INFO  TC001_AccountRegistrationTest:138 - Navigated to application URL.
+2025-08-27 20:38:38 INFO  TC001_AccountRegistrationTest:142 - Browser window maximized.
+2025-08-27 20:38:38 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:38:38 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:38:38 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:38:39 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:38:39 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:38:39 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: RFVTH, LastName: UUOUG, Email: XpqqD@gmail.com, Phone: 6033261686, Password: IQmfi222
+2025-08-27 20:38:39 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:38:39 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:38:40 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:38:40 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:38:40 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:38:40 INFO  TC001_AccountRegistrationTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:38:41 INFO  TC002_LoginTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:38:41 INFO  TC002_LoginTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:38:42 INFO  TC002_LoginTest:138 - Navigated to application URL.
+2025-08-27 20:38:42 INFO  TC002_LoginTest:142 - Browser window maximized.
+2025-08-27 20:38:42 INFO  TC002_LoginTest:25 - === Starting TC002: Account Login Test ===
+2025-08-27 20:38:42 INFO  TC002_LoginTest:32 - Navigated to Login Page.
+2025-08-27 20:38:43 INFO  TC002_LoginTest:39 - Login form submitted with valid credentials.
+2025-08-27 20:38:44 INFO  TC002_LoginTest:47 - ✅ Login test passed - My Account page is visible.
+2025-08-27 20:38:44 INFO  TC002_LoginTest:54 - === TC002: Account Login Test Completed ===
+2025-08-27 20:38:44 INFO  TC002_LoginTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:38:45 INFO  TC003_LoginDDT:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:38:45 INFO  TC003_LoginDDT:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:38:46 INFO  TC003_LoginDDT:138 - Navigated to application URL.
+2025-08-27 20:38:46 INFO  TC003_LoginDDT:142 - Browser window maximized.
+2025-08-27 20:38:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:38:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:38:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:38:47 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:38:47 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:38:48 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: pavanoltraining@gmail.com / test@123
+2025-08-27 20:38:58 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
+2025-08-27 20:38:58 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:38:58 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:38:58 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:39:00 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: lakshmi@yahoo.com / Laxmi
+2025-08-27 20:39:00 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
+2025-08-27 20:39:00 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:39:00 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:39:00 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:39:00 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: laksh@yahoo.com / Lakshmi
+2025-08-27 20:39:03 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
+2025-08-27 20:39:03 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:39:03 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:39:03 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:39:04 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: laks@yahoo.com / xyz
+2025-08-27 20:39:15 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
+2025-08-27 20:39:15 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:39:15 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:39:15 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:39:15 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: abc123@gmail.com / test@123
+2025-08-27 20:39:17 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
+2025-08-27 20:39:17 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:39:17 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:39:17 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:39:17 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: nivangunevrushali.vn@gmail.com / Vrusha123$
+2025-08-27 20:39:18 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
+2025-08-27 20:39:18 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:39:18 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:39:18 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:39:19 INFO  TC003_LoginDDT:39 - Login form submitted with credentials:  / Vrusha123$
+2025-08-27 20:39:29 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
+2025-08-27 20:39:29 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:39:29 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:39:29 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:39:29 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: nivangunevrushali.vn@gmail.com / 
+2025-08-27 20:39:39 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
+2025-08-27 20:39:39 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:39:39 INFO  TC003_LoginDDT:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:39:40 INFO  TC004_SearchProductTest:110 - ✅ Chrome browser launched locally.
+2025-08-27 20:39:40 INFO  TC004_SearchProductTest:133 - Implicit wait of 10 seconds applied.
+2025-08-27 20:39:43 INFO  TC004_SearchProductTest:138 - Navigated to application URL.
+2025-08-27 20:39:43 INFO  TC004_SearchProductTest:142 - Browser window maximized.
+2025-08-27 20:39:43 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
+2025-08-27 20:39:43 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
+2025-08-27 20:39:43 INFO  TC004_SearchProductTest:32 - === TC004: Product Search Test Completed ===
+2025-08-27 20:39:44 INFO  TC004_SearchProductTest:158 - Browser closed and WebDriver session ended.
+2025-08-27 20:43:10 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:43:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:43:14 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:43:14 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-08-27 20:43:15 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-08-27 20:43:15 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:43:15 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-08-27 20:43:15 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:43:15 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:43:15 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-08-27 20:43:26 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-08-27 20:43:27 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-08-27 20:43:27 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:43:27 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:43:27 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-08-27 20:43:27 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-08-27 20:44:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml"
+2025-08-27 20:44:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\CrossBrowserTesting.xml
+
+2025-08-27 20:44:32 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:44:32 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-08-27 20:44:34 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-08-27 20:44:34 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-08-27 20:44:34 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:44:34 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:44:34 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:44:34 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:44:34 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:44:34 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: RFMYL, LastName: UKKOT, Email: zAdsK@gmail.com, Phone: 6893792345, Password: PTCss027
+2025-08-27 20:44:35 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:44:35 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:44:35 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-08-27 20:44:36 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:44:36 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:44:36 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:44:36 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:44:36 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-08-27 20:44:37 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-08-27 20:44:56 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
+2025-08-27 20:44:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml
+
+2025-08-27 20:44:57 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:44:57 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-08-27 20:44:59 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-08-27 20:44:59 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-08-27 20:44:59 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-08-27 20:44:59 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-08-27 20:44:59 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-08-27 20:45:00 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-08-27 20:45:00 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-08-27 20:45:00 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: NPNJD, LastName: YRERY, Email: COEvd@gmail.com, Phone: 6569138750, Password: CWoLf867
+2025-08-27 20:45:00 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-08-27 20:45:07 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-08-27 20:45:07 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-08-27 20:45:07 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-08-27 20:45:07 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-08-27 20:45:07 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-08-27 20:45:08 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:45:08 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-08-27 20:45:09 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-08-27 20:45:09 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-08-27 20:45:09 INFO  TC002_LoginTest:25 - === Starting TC002: Account Login Test ===
+2025-08-27 20:45:09 INFO  TC002_LoginTest:32 - Navigated to Login Page.
+2025-08-27 20:45:09 INFO  TC002_LoginTest:39 - Login form submitted with valid credentials.
+2025-08-27 20:45:11 INFO  TC002_LoginTest:47 - ✅ Login test passed - My Account page is visible.
+2025-08-27 20:45:11 INFO  TC002_LoginTest:54 - === TC002: Account Login Test Completed ===
+2025-08-27 20:45:11 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-08-27 20:45:11 INFO  TC003_LoginDDT:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:45:11 INFO  TC003_LoginDDT:134 - Implicit wait of 10 seconds applied.
+2025-08-27 20:45:14 INFO  TC003_LoginDDT:139 - Navigated to application URL.
+2025-08-27 20:45:14 INFO  TC003_LoginDDT:143 - Browser window maximized.
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:14 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-08-27 20:45:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-08-27 20:45:15 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-08-27 20:45:15 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:45:15 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:45:16 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: pavanoltraining@gmail.com / test@123
+2025-08-27 20:45:26 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
+2025-08-27 20:45:26 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:45:26 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:45:26 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:45:27 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: lakshmi@yahoo.com / Laxmi
+2025-08-27 20:45:28 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
+2025-08-27 20:45:28 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:45:28 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:45:28 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:45:28 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: laksh@yahoo.com / Lakshmi
+2025-08-27 20:45:29 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
+2025-08-27 20:45:29 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:45:29 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:45:30 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:45:30 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: laks@yahoo.com / xyz
+2025-08-27 20:45:42 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
+2025-08-27 20:45:42 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:45:42 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:45:42 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:45:43 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: abc123@gmail.com / test@123
+2025-08-27 20:45:44 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
+2025-08-27 20:45:44 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:45:44 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:45:44 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:45:45 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: nivangunevrushali.vn@gmail.com / Vrusha123$
+2025-08-27 20:45:46 INFO  TC003_LoginDDT:50 - ✅ Login successful for valid credentials.
+2025-08-27 20:45:46 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:45:46 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:45:46 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:45:47 INFO  TC003_LoginDDT:39 - Login form submitted with credentials:  / Vrusha123$
+2025-08-27 20:45:57 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
+2025-08-27 20:45:57 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:45:57 INFO  TC003_LoginDDT:25 - === Starting TC003: Account Login DDT Test ===
+2025-08-27 20:45:57 INFO  TC003_LoginDDT:32 - Navigated to Login Page.
+2025-08-27 20:45:58 INFO  TC003_LoginDDT:39 - Login form submitted with credentials: nivangunevrushali.vn@gmail.com / 
+2025-08-27 20:46:08 INFO  TC003_LoginDDT:64 - ✅ Login failed as expected for invalid credentials.
+2025-08-27 20:46:08 INFO  TC003_LoginDDT:74 - === TC003: Account Login DDT Test Completed ===
+2025-08-27 20:46:08 INFO  TC003_LoginDDT:159 - Browser closed and WebDriver session ended.
+2025-08-27 20:46:09 INFO  TC004_SearchProductTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-08-27 20:46:09 INFO  TC004_SearchProductTest:134 - Implicit wait of 10 seconds applied.
+2025-08-27 20:46:10 INFO  TC004_SearchProductTest:139 - Navigated to application URL.
+2025-08-27 20:46:11 INFO  TC004_SearchProductTest:143 - Browser window maximized.
+2025-08-27 20:46:11 INFO  TC004_SearchProductTest:13 - === Starting TC004: Product Search Test ===
+2025-08-27 20:46:11 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
+2025-08-27 20:46:11 INFO  TC004_SearchProductTest:32 - === TC004: Product Search Test Completed ===
+2025-08-27 20:46:11 INFO  TC004_SearchProductTest:159 - Browser closed and WebDriver session ended.

@@ -31,7 +31,7 @@
       OS and browser are passed as parameters to the test class
     -->
     <test name="ChromeTest">
-        <parameter name="OS" value="Windows"/>
+        <parameter name="OS" value="windows"/>
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="testCases.TC001_AccountRegistrationTest"/>
@@ -42,7 +42,7 @@
       Test 2: Runs the same test on Edge browser
     -->
     <test name="EdgeTest">
-        <parameter name="OS" value="Windows"/>
+        <parameter name="OS" value="windows"/>
         <parameter name="browser" value="Edge"/>
         <classes>
             <class name="testCases.TC001_AccountRegistrationTest"/>
@@ -53,7 +53,7 @@
       Test 3: Runs the same test on Firefox browser
     -->
     <test name="FireFoxTest">
-        <parameter name="OS" value="Windows"/>
+        <parameter name="OS" value="windows"/>
         <parameter name="browser" value="Firefox"/>
         <classes>
             <class name="testCases.TC001_AccountRegistrationTest"/>

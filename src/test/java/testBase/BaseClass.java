@@ -96,6 +96,7 @@ public class BaseClass {
                     System.out.println("❌ No matching browser found in config.properties");
                     return; // stop execution
             }
+            System.setProperty("webdriver.http.factory", "jdk-http-client");
 
             // Create RemoteWebDriver instance and connect to Selenium Grid Hub
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
