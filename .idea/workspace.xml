@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="20th Aug 2025">
+    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="25th Aug 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC004_SearchProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC004_SearchProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,22 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753367864001</updated>
-    </task>
-    <task id="LOCAL-00005" summary="30th July 2025">
-      <option name="closed" value="true" />
-      <created>1753874340880</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1753874340880</updated>
-    </task>
-    <task id="LOCAL-00006" summary="30th July 2025">
-      <option name="closed" value="true" />
-      <created>1753878017059</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1753878017059</updated>
     </task>
     <task id="LOCAL-00007" summary="30th July 2025">
       <option name="closed" value="true" />
@@ -492,7 +474,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755661815806</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="25th Aug 2025">
+      <option name="closed" value="true" />
+      <created>1756095527527</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1756095527529</updated>
+    </task>
+    <task id="LOCAL-00055" summary="25th Aug 2025">
+      <option name="closed" value="true" />
+      <created>1756096494015</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1756096494015</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,6 +520,7 @@
     <MESSAGE value="13th Aug 2025" />
     <MESSAGE value="18th Aug 2025" />
     <MESSAGE value="20th Aug 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="20th Aug 2025" />
+    <MESSAGE value="25th Aug 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="25th Aug 2025" />
   </component>
 </project>
