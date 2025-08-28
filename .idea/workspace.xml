@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="27th Aug 2025">
-      <change afterPath="$PROJECT_DIR$/logs/automation-08-21-2025-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.11.57.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.13.50.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.14.25.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.16.19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.17.46.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.19.16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.20.11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.22.31.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.22.58.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.30.10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.32.51.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.33.46.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.37.05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.37.58.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.38.35.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.43.11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.44.30.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2025.08.27.20.44.56.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/verifyAccountRegistration 2025.08.27.20.18.00" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/verifyAccountRegistration 2025.08.27.20.18.10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/verifyAccountRegistration 2025.08.27.20.19.31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/verifyAccountRegistration 2025.08.27.20.19.41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/verifyAccountRegistration 2025.08.27.20.37.19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/verifyAccountRegistration 2025.08.27.20.43.25" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrossBrowserTesting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CrossBrowserTesting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,22 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753367864001</updated>
-    </task>
-    <task id="LOCAL-00008" summary="30th July 2025">
-      <option name="closed" value="true" />
-      <created>1753894681652</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1753894681652</updated>
-    </task>
-    <task id="LOCAL-00009" summary="30th July 2025">
-      <option name="closed" value="true" />
-      <created>1753894811463</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1753894811463</updated>
     </task>
     <task id="LOCAL-00010" summary="31st July 2025">
       <option name="closed" value="true" />
@@ -518,7 +473,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756305458089</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="27th Aug 2025">
+      <option name="closed" value="true" />
+      <created>1756308069755</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1756308069756</updated>
+    </task>
+    <task id="LOCAL-00058" summary="27th Aug 2025">
+      <option name="closed" value="true" />
+      <created>1756308160623</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1756308160623</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
