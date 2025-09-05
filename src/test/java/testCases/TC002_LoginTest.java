@@ -1,11 +1,16 @@
 package testCases;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 import testBase.BaseClass;
+
+import java.time.Duration;
 
 /**
  * TC002_LoginTest:
@@ -27,6 +32,8 @@ public class TC002_LoginTest extends BaseClass {
         try {
             // Initialize Home Page and navigate to login page
             HomePage hp = new HomePage(driver);
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+            wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='My Account']")));
             hp.clickMyAccount();
             hp.clickLogin();
             logger.info("Navigated to Login Page.");

@@ -32,7 +32,7 @@
       You can duplicate this <test> block to run on other browsers or platforms.
     -->
     <test name="Chrome">
-        <parameter name="OS" value="Windows"/>
+        <parameter name="OS" value="linux"/>
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="testCases.TC001_AccountRegistrationTest"/>

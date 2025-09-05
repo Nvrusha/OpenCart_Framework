@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="27th Aug 2025">
+    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="28th Aug 2025">
+      <change afterPath="$PROJECT_DIR$/grid-docker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC002_LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC002_LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExtentReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +59,13 @@
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/CrossBrowserTesting.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/grid-docker.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/grouping.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/master.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/testng.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Grouping Suite.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TC001_AccountRegistrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC002_LoginTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TC004_SearchProductTest.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -69,6 +77,16 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration name="C:/Users/visha/IdeaProjects/OpenCart_Framework/grid-docker.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCart_Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/grid-docker.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Grouping Suite" type="TestNG">
       <module name="OpenCart_Framework" />
       <shortenClasspath name="NONE" />
@@ -87,6 +105,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/grid-docker.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,14 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753367864001</updated>
-    </task>
-    <task id="LOCAL-00010" summary="31st July 2025">
-      <option name="closed" value="true" />
-      <created>1753933214052</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1753933214052</updated>
     </task>
     <task id="LOCAL-00011" summary="31st July 2025">
       <option name="closed" value="true" />
@@ -489,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756308160623</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="28th Aug 2025">
+      <option name="closed" value="true" />
+      <created>1756396563059</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1756396563060</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,6 +544,7 @@
     <MESSAGE value="20th Aug 2025" />
     <MESSAGE value="25th Aug 2025" />
     <MESSAGE value="27th Aug 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="27th Aug 2025" />
+    <MESSAGE value="28th Aug 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="28th Aug 2025" />
   </component>
 </project>

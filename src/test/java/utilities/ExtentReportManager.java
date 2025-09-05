@@ -56,7 +56,7 @@ public class ExtentReportManager implements ITestListener {
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt", "QA");
 
-		// Fetch parameters from testng.xml (os and browser)
+		// Fetch parameters from grid-docker.xml (os and browser)
 		String os = testContext.getCurrentXmlTest().getParameter("os");
 		extent.setSystemInfo("Operating System", os);
 
