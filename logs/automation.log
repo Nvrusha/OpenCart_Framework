@@ -613,3 +613,343 @@
 2025-09-05 08:42:49 INFO  TC004_SearchProductTest:20 - Search submitted for product: MacBook
 2025-09-05 08:42:49 INFO  TC004_SearchProductTest:32 - === TC004: Product Search Test Completed ===
 2025-09-05 08:42:49 INFO  TC004_SearchProductTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 08:48:16 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml"
+2025-09-05 08:48:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml
+
+2025-09-05 08:48:20 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 08:48:20 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 08:48:23 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 08:48:24 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 08:48:24 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 08:48:24 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 08:48:24 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 08:48:25 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 08:48:25 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 08:48:25 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: FXTRX, LastName: CCVYP, Email: nAtuH@gmail.com, Phone: 8994469724, Password: cqVZN559
+2025-09-05 08:48:25 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 08:48:26 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 08:48:26 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 08:48:26 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 08:48:26 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 08:48:27 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 08:48:30 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 08:48:30 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 08:48:31 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 08:48:32 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 08:48:32 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 08:48:32 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 08:48:33 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 08:48:33 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 08:48:33 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 08:48:34 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 08:48:39 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 08:48:39 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 08:48:41 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 08:48:41 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 08:48:41 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 08:48:41 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 08:48:41 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 08:48:42 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 08:48:42 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 08:48:42 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: FIVNV, LastName: HJGTD, Email: VNice@gmail.com, Phone: 3913925410, Password: uqNFk706
+2025-09-05 08:48:42 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 08:48:43 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 08:48:43 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 08:48:43 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 08:48:43 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 08:48:44 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 08:48:47 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 08:48:47 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 08:48:48 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 08:48:49 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 08:48:49 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 08:48:49 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 08:48:51 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 08:48:51 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 08:48:51 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 08:48:52 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:24:10 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml"
+2025-09-05 09:24:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml
+
+2025-09-05 09:24:14 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:24:14 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:24:15 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 09:24:16 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 09:24:16 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 09:24:16 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 09:24:16 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 09:24:16 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 09:24:16 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 09:24:16 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: RQPHV, LastName: NISUZ, Email: FWYTV@gmail.com, Phone: 4615078898, Password: PXLpQ549
+2025-09-05 09:24:16 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 09:24:17 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 09:24:17 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 09:24:17 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 09:24:17 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 09:24:18 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:24:19 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:24:19 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:24:23 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 09:24:23 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 09:24:23 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 09:24:24 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 09:24:25 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 09:24:25 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 09:24:25 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 09:24:25 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:24:29 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:24:29 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:24:30 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 09:24:30 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 09:24:30 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 09:24:30 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 09:24:30 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 09:24:32 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 09:24:32 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 09:24:32 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: XSLQO, LastName: RBWER, Email: CVkVy@gmail.com, Phone: 3432803769, Password: vifDq372
+2025-09-05 09:24:32 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 09:24:33 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 09:24:33 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 09:24:33 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 09:24:33 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 09:24:33 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:24:35 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:24:35 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:24:36 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 09:24:37 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 09:24:37 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 09:24:37 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 09:24:38 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 09:24:38 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 09:24:38 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 09:24:38 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:25:41 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml"
+2025-09-05 09:25:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml
+
+2025-09-05 09:25:42 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:25:42 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:25:43 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 09:25:43 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 09:25:43 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 09:25:43 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 09:25:43 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 09:25:44 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 09:25:44 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 09:25:44 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: VWUAT, LastName: PQZVJ, Email: Rwvws@gmail.com, Phone: 8006682852, Password: taLKz975
+2025-09-05 09:25:44 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 09:25:45 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 09:25:45 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 09:25:45 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 09:25:45 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 09:25:45 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:25:46 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:25:46 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:25:46 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 09:25:47 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 09:25:47 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 09:25:47 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 09:25:47 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 09:25:48 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 09:25:48 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 09:25:48 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:25:51 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:25:51 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:25:55 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 09:25:55 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 09:25:55 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 09:25:55 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 09:25:55 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 09:25:56 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 09:25:56 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 09:25:56 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: UVEWT, LastName: CBLCK, Email: aCDIh@gmail.com, Phone: 6378440288, Password: xDDIN502
+2025-09-05 09:25:56 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 09:25:57 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 09:25:57 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 09:25:57 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 09:25:57 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 09:25:58 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:26:00 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:26:00 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:26:01 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 09:26:01 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 09:26:01 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 09:26:02 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 09:26:03 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 09:26:03 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 09:26:03 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 09:26:04 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:54:43 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml"
+2025-09-05 09:54:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml
+
+2025-09-05 09:54:46 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:54:46 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:54:47 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 09:54:47 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 09:54:47 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 09:54:47 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 09:54:47 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 09:54:47 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 09:54:47 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 09:54:47 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: OAQKZ, LastName: GAGQQ, Email: odqjS@gmail.com, Phone: 9204752472, Password: gYIgq770
+2025-09-05 09:54:48 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 09:54:49 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 09:54:49 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 09:54:49 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 09:54:49 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 09:54:49 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:54:49 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:54:49 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:54:50 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 09:54:50 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 09:54:50 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 09:54:51 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 09:54:52 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 09:54:52 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 09:54:52 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 09:54:52 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:54:59 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:54:59 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:55:01 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 09:55:01 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 09:55:01 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 09:55:01 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 09:55:02 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 09:55:04 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 09:55:04 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 09:55:04 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: IVGTS, LastName: LBURN, Email: ASEwE@gmail.com, Phone: 8958753050, Password: wCgvb463
+2025-09-05 09:55:04 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 09:55:06 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 09:55:06 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 09:55:06 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 09:55:06 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 09:55:07 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:55:09 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:55:09 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:56:10 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 09:56:10 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 09:56:10 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 09:56:11 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 09:56:12 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 09:56:13 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 09:56:13 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 09:56:13 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:56:43 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml"
+2025-09-05 09:56:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml
+
+2025-09-05 09:57:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml"
+2025-09-05 09:57:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml
+
+2025-09-05 09:57:48 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:57:48 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:57:49 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 09:57:49 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 09:57:49 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 09:57:49 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 09:57:50 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 09:57:50 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 09:57:50 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 09:57:50 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: IDTCD, LastName: CHBGP, Email: Kyyjr@gmail.com, Phone: 1626594227, Password: InjvA736
+2025-09-05 09:57:51 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 09:57:52 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 09:57:52 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 09:57:52 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 09:57:52 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 09:57:52 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:57:52 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:57:52 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:57:53 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 09:57:53 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 09:57:53 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 09:57:54 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 09:57:55 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 09:57:55 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 09:57:55 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 09:57:55 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:57:59 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:57:59 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:58:02 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 09:58:02 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 09:58:02 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 09:58:02 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 09:58:02 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 09:58:03 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 09:58:03 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 09:58:03 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: ZEEIB, LastName: CUKDQ, Email: HeJVg@gmail.com, Phone: 5711332027, Password: rhVDc829
+2025-09-05 09:58:03 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 09:58:04 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 09:58:04 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 09:58:04 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 09:58:04 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 09:58:05 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 09:58:07 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 09:58:07 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 09:58:08 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 09:58:08 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 09:58:08 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 09:58:09 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 09:58:10 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 09:58:10 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 09:58:10 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 09:58:11 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 10:01:29 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml"
+2025-09-05 10:01:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\visha\IdeaProjects\OpenCart_Framework\grid-docker.xml
+
+2025-09-05 10:01:31 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 10:01:31 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 10:01:33 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 10:01:33 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 10:01:33 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 10:01:33 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 10:01:33 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 10:01:34 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 10:01:34 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 10:01:34 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: IRSDU, LastName: HLLVF, Email: HfNZA@gmail.com, Phone: 8194964164, Password: nFStd908
+2025-09-05 10:01:35 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 10:01:36 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 10:01:36 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 10:01:36 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 10:01:36 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 10:01:36 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 10:01:36 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 10:01:36 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 10:01:38 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 10:01:38 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 10:01:38 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 10:01:39 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 10:01:39 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 10:01:40 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 10:01:40 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 10:01:40 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 10:01:43 INFO  TC001_AccountRegistrationTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 10:01:43 INFO  TC001_AccountRegistrationTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 10:01:44 INFO  TC001_AccountRegistrationTest:139 - Navigated to application URL.
+2025-09-05 10:01:44 INFO  TC001_AccountRegistrationTest:143 - Browser window maximized.
+2025-09-05 10:01:44 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2025-09-05 10:01:44 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2025-09-05 10:01:45 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2025-09-05 10:01:45 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2025-09-05 10:01:45 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2025-09-05 10:01:45 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: ULXIE, LastName: FSNHI, Email: ySXWJ@gmail.com, Phone: 3492888183, Password: yYQBR422
+2025-09-05 10:01:45 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2025-09-05 10:01:46 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2025-09-05 10:01:46 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2025-09-05 10:01:46 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2025-09-05 10:01:46 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2025-09-05 10:01:47 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2025-09-05 10:01:49 INFO  TC002_LoginTest:103 - ✅ Connected to Selenium Grid on: http://localhost:4444/wd/hub
+2025-09-05 10:01:49 INFO  TC002_LoginTest:134 - Implicit wait of 10 seconds applied.
+2025-09-05 10:01:50 INFO  TC002_LoginTest:139 - Navigated to application URL.
+2025-09-05 10:01:50 INFO  TC002_LoginTest:143 - Browser window maximized.
+2025-09-05 10:01:50 INFO  TC002_LoginTest:30 - === Starting TC002: Account Login Test ===
+2025-09-05 10:01:50 INFO  TC002_LoginTest:39 - Navigated to Login Page.
+2025-09-05 10:01:51 INFO  TC002_LoginTest:46 - Login form submitted with valid credentials.
+2025-09-05 10:01:51 INFO  TC002_LoginTest:54 - ✅ Login test passed - My Account page is visible.
+2025-09-05 10:01:51 INFO  TC002_LoginTest:61 - === TC002: Account Login Test Completed ===
+2025-09-05 10:01:52 INFO  TC002_LoginTest:159 - Browser closed and WebDriver session ended.

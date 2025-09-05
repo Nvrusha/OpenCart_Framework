@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="28th Aug 2025">
-      <change afterPath="$PROJECT_DIR$/grid-docker.xml" afterDir="false" />
+    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="5th Sep 2025">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grid-docker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grid-docker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC002_LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC002_LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExtentReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753367864001</updated>
-    </task>
-    <task id="LOCAL-00011" summary="31st July 2025">
-      <option name="closed" value="true" />
-      <created>1753947599350</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1753947599350</updated>
     </task>
     <task id="LOCAL-00012" summary="31st July 2025">
       <option name="closed" value="true" />
@@ -512,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756396563060</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="5th Sep 2025">
+      <option name="closed" value="true" />
+      <created>1757042177909</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1757042177909</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,6 +544,7 @@
     <MESSAGE value="25th Aug 2025" />
     <MESSAGE value="27th Aug 2025" />
     <MESSAGE value="28th Aug 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="28th Aug 2025" />
+    <MESSAGE value="5th Sep 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="5th Sep 2025" />
   </component>
 </project>
