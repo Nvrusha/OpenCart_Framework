@@ -1,90 +1,290 @@
-# Selenium Hybrid Framework 🚀
+# Selenium Hybrid Automation Framework 🚀
 
-A robust hybrid automation framework built using **Selenium WebDriver**, **TestNG**, **Java**, and **Log4j2**, designed for cross-browser testing with support for data-driven testing, reporting, grouping, and remote execution (Grid/Docker).
+A robust **Hybrid Test Automation Framework** built using **Selenium WebDriver, Java, TestNG, Maven, and Log4j2**.
+The framework supports **cross-browser testing, data-driven testing, reporting, CI execution with Jenkins, and Selenium Grid support**.
 
----
-
-## 📁 Project Structure
-- `testBase` – Contains `BaseClass` for setup/teardown, config loading, browser init.
-- `pageObjects` – Page Object Model classes for app pages.
-- `testCases` – Test classes like Account Registration and Login.
-- `utilities` – Helpers like ExcelUtility, DataProviders, ExtentReportUtility.
-- `resources` – Holds `log4j2.xml`, `config.properties`, test data Excel.
+This project demonstrates how a **production-level automation framework** is structured for scalable UI test automation.
 
 ---
 
-## ✅ Features Overview
+# 🧰 Tech Stack
 
-### 1. 🔧 Core Setup
-- `BasePage` constructor reused across all POMs.
-- `BaseClass` handles browser setup, logging, test data utilities.
-
-### 2. 📝 Logging (Log4j2)
-- Centralized logging setup with daily rolling logs.
-- Helpful for debugging and audit trails.
-
-### 3. 🌐 Cross-Browser & Parallel Execution
-- `testng.xml` parameterizes browser/OS.
-- Supports Chrome, Firefox, Edge in parallel.
-- Master & cross-browser suite files created.
-
-### 4. ⚙️ Config Management
-- `config.properties` stores common values like `appURL`, `browser`, `execution_env`.
-- Used to eliminate hard-coded values.
-
-### 5. 🔐 Login & Registration Test Cases
-- Account registration and login tests with validations.
-- POM pattern with reusable actions.
-
-### 6. 📊 Data-Driven Testing (DDT)
-- Login tested with multiple inputs from Excel.
-- `ExcelUtility` + `DataProviders` for external test data.
-
-### 7. 🧪 Test Grouping
-- Tests grouped into `sanity`, `regression`, `master`.
-- Can execute groups via `grouping.xml`.
-
-### 8. 📋 Extent Reporting
-- Integrated ExtentReports for HTML test reports.
-- Includes screenshots on failure.
-
-### 9. 🔁 Rerun Failed Tests
-- Uses `testng-failed.xml` from test-output directory.
-
-### 10. 🧱 Selenium Grid & Docker Support
-- Run tests locally or remotely using config flag.
-- Grid/Docker setup supported.
-
-### 11. ⚙️ Maven & Jenkins Ready
-- Tests executable via `pom.xml`, command line, `.bat`, or Jenkins pipeline.
-- GitHub integration enabled.
+| Tool               | Purpose                                    |
+| ------------------ | ------------------------------------------ |
+| Selenium WebDriver | Browser automation                         |
+| Java               | Programming language                       |
+| TestNG             | Test execution framework                   |
+| Maven              | Build and dependency management            |
+| Log4j2             | Logging framework                          |
+| Jenkins            | Continuous Integration execution           |
+| GitHub             | Source code management                     |
+| Excel              | External test data for data-driven testing |
 
 ---
 
-## 📌 How to Run
-- Update browser/environment in `testng.xml` or `config.properties`
-- Use IntelliJ/Eclipse or:
-```bash
+# 📁 Project Structure
+
+```
+OpenCart_Framework
+│
+├── src/test/java
+│   ├── testBase        → BaseClass for setup, teardown and configuration
+│   ├── pageObjects     → Page Object Model classes
+│   ├── testCases       → Test scripts (Login, Registration etc.)
+│   └── utilities       → ExcelUtility, DataProviders, ExtentReportUtility
+│
+├── src/test/resources
+│   ├── config.properties
+│   ├── log4j2.xml
+│   └── test data Excel files
+│
+├── test-output         → TestNG execution results
+├── screenshots         → Failure screenshots
+├── pom.xml             → Maven dependencies
+└── JENKINS_SETUP.md    → Jenkins execution guide
+```
+
+---
+
+# ✅ Framework Features
+
+## 1️⃣ Base Framework Setup
+
+* **BaseClass** handles browser initialization, configuration loading, and teardown.
+* **BasePage** constructor reused across Page Object classes.
+
+---
+
+## 2️⃣ Logging (Log4j2)
+
+* Centralized logging configuration using **Log4j2**.
+* Logs generated during test execution.
+* Useful for debugging automation failures.
+
+---
+
+## 3️⃣ Cross-Browser Testing
+
+Supports execution on:
+
+```
+Chrome
+Firefox
+Edge
+```
+
+Browser selection can be controlled via:
+
+```
+testng.xml
+config.properties
+```
+
+---
+
+## 4️⃣ Configuration Management
+
+Environment configuration stored in:
+
+```
+config.properties
+```
+
+Example:
+
+```
+appURL=https://tutorialsninja.com/demo/
+execution_env=local
+```
+
+This avoids hardcoded values in test scripts.
+
+---
+
+## 5️⃣ Page Object Model (POM)
+
+The framework follows **Page Object Model design pattern**.
+
+Benefits:
+
+* Better maintainability
+* Reusable page methods
+* Cleaner test cases
+
+---
+
+## 6️⃣ Data Driven Testing (DDT)
+
+Login tests support **multiple test data inputs from Excel**.
+
+Components used:
+
+```
+ExcelUtility
+DataProviders
+```
+
+This enables externalized test data.
+
+---
+
+## 7️⃣ Test Grouping
+
+TestNG groups allow selective execution:
+
+```
+Sanity
+Regression
+Master
+```
+
+Execution can be controlled through:
+
+```
+grouping.xml
+```
+
+---
+
+## 8️⃣ Extent Reports
+
+The framework integrates **ExtentReports** for HTML test reports.
+
+Features include:
+
+* Test pass/fail status
+* Screenshots for failed tests
+* Execution summary
+
+Reports generated after execution.
+
+---
+
+## 9️⃣ Rerun Failed Tests
+
+TestNG automatically generates:
+
+```
+testng-failed.xml
+```
+
+This allows rerunning only failed test cases.
+
+---
+
+## 🔟 Selenium Grid / Remote Execution
+
+Framework supports both:
+
+```
+Local execution
+Remote execution via Selenium Grid / Docker
+```
+
+Controlled via:
+
+```
+execution_env property in config.properties
+```
+
+---
+
+## 1️⃣1️⃣ Maven Execution
+
+Tests can be executed using Maven.
+
+```
+mvn clean test
+```
+
+This performs:
+
+```
+Clean previous build
+Compile project
+Run TestNG tests
+```
+
+---
+
+## 1️⃣2️⃣ Jenkins CI Integration
+
+The framework is integrated with **Jenkins for Continuous Integration**.
+
+Pipeline flow:
+
+```
+GitHub
+   ↓
+Jenkins Job
+   ↓
+Maven Build
+   ↓
+TestNG Execution
+   ↓
+Selenium Tests
+   ↓
+Test Reports
+```
+
+Detailed setup instructions are available in:
+
+```
+JENKINS_SETUP.md
+```
+
+---
+
+# ▶️ How to Run the Framework
+
+Clone the repository:
+
+```
+git clone https://github.com/Nvrusha/OpenCart_Framework.git
+```
+
+Navigate to project directory:
+
+```
+cd OpenCart_Framework
+```
+
+Run tests:
+
+```
 mvn clean test
 ```
 
 ---
 
-## 🚀 Planned Enhancements
-- Adding more test cases
-- API automation support
-- CI/CD workflows
+# 📊 Expected Test Execution Flow
+
+```
+TestNG Suite
+     ↓
+Browser Initialization
+     ↓
+Page Object Methods
+     ↓
+Test Execution
+     ↓
+Logging + Reporting
+     ↓
+Screenshots on Failure
+```
 
 ---
 
-## 📁 Sample Files
-- `testng.xml`, `log4j2.xml`, `config.properties`, and Excel test data provided.
+# 🚀 Future Enhancements
+
+Planned improvements:
+
+* API automation integration
+* CI pipeline improvements
+* Parallel execution optimization
 
 ---
 
-## 📬 Contact
-For suggestions or contributions, feel free to fork or raise an issue.
+⭐ If you find this framework helpful, feel free to **star the repository**.
 
----
-
-> Built with ❤️ using Java + Selenium + TestNG
+Built with ❤️ using **Java + Selenium + TestNG**
