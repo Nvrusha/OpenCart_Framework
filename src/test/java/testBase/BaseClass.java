@@ -109,16 +109,8 @@ public class BaseClass {
             switch (br.toLowerCase()) {
                 case "chrome":
 
-                    ChromeOptions options = new ChromeOptions();
-
-                    options.addArguments("--headless=new");
-                    options.addArguments("--disable-gpu");
-                    options.addArguments("--window-size=1920,1080");
-                    options.addArguments("--remote-allow-origins=*");
-
-                    logger.info("Running Chrome in headless mode for CI.");
-
-                    driver = new ChromeDriver(options);
+                    driver = new ChromeDriver();
+                    logger.info("✅ Chrome browser launched locally.");
 
                     break;
                 case "firefox":

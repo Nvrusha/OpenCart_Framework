@@ -216,3 +216,37 @@
 2026-03-15 18:12:17 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
 2026-03-15 18:12:17 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
 2026-03-15 18:12:17 INFO  TC001_AccountRegistrationTest:172 - Browser closed and WebDriver session ended.
+2026-03-15 18:28:22 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
+2026-03-15 18:28:22 INFO  TC001_AccountRegistrationTest:119 - Running Chrome in headless mode for CI.
+2026-03-15 18:28:24 INFO  TC001_AccountRegistrationTest:145 - Implicit wait of 10 seconds applied.
+2026-03-15 18:28:25 INFO  TC001_AccountRegistrationTest:150 - Navigated to application URL.
+2026-03-15 18:28:25 INFO  TC001_AccountRegistrationTest:154 - Browser window maximized.
+2026-03-15 18:28:25 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2026-03-15 18:28:25 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2026-03-15 18:28:25 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2026-03-15 18:28:25 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2026-03-15 18:28:25 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2026-03-15 18:28:25 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: WBAVF, LastName: WRVUT, Email: heCkF@gmail.com, Phone: 3261113324, Password: qDsve815
+2026-03-15 18:28:26 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2026-03-15 18:28:27 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2026-03-15 18:28:27 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2026-03-15 18:28:27 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2026-03-15 18:28:27 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2026-03-15 18:28:27 INFO  TC001_AccountRegistrationTest:170 - Browser closed and WebDriver session ended.
+2026-03-15 18:32:28 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
+2026-03-15 18:32:28 INFO  TC001_AccountRegistrationTest:119 - Running Chrome in headless mode for CI.
+2026-03-15 18:32:30 INFO  TC001_AccountRegistrationTest:145 - Implicit wait of 10 seconds applied.
+2026-03-15 18:32:30 INFO  TC001_AccountRegistrationTest:150 - Navigated to application URL.
+2026-03-15 18:32:30 INFO  TC001_AccountRegistrationTest:154 - Browser window maximized.
+2026-03-15 18:32:30 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2026-03-15 18:32:30 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2026-03-15 18:32:31 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2026-03-15 18:32:31 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2026-03-15 18:32:31 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2026-03-15 18:32:31 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: UKQHP, LastName: HFZTP, Email: oTyTd@gmail.com, Phone: 5875502330, Password: EuPJJ705
+2026-03-15 18:32:31 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2026-03-15 18:32:32 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2026-03-15 18:32:32 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2026-03-15 18:32:32 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2026-03-15 18:32:32 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2026-03-15 18:32:33 INFO  TC001_AccountRegistrationTest:170 - Browser closed and WebDriver session ended.
