@@ -111,17 +111,14 @@ public class BaseClass {
 
                     ChromeOptions options = new ChromeOptions();
 
-                    // Run headless when executing in Jenkins
-                    if (System.getenv("JENKINS_HOME") != null) {
-                        options.addArguments("--headless=new");
-                        options.addArguments("--disable-gpu");
-                        options.addArguments("--window-size=1920,1080");
-                        options.addArguments("--remote-allow-origins=*");
-                        logger.info("Running Chrome in headless mode for Jenkins.");
-                    }
+                    options.addArguments("--headless=new");
+                    options.addArguments("--disable-gpu");
+                    options.addArguments("--window-size=1920,1080");
+                    options.addArguments("--remote-allow-origins=*");
+
+                    logger.info("Running Chrome in headless mode for CI.");
 
                     driver = new ChromeDriver(options);
-                    logger.info("Chrome browser launched.");
 
                     break;
                 case "firefox":
