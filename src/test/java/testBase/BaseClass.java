@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -107,8 +108,20 @@ public class BaseClass {
         if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
             switch (br.toLowerCase()) {
                 case "chrome":
-                    driver = new ChromeDriver();
-                    logger.info("✅ Chrome browser launched locally.");
+
+                    ChromeOptions options = new ChromeOptions();
+
+                    // If running on Jenkins (no desktop access) use headless
+                    if(System.getenv("JENKINS_HOME") != null){
+                        options.addArguments("--headless=new");
+                        options.addArguments("--disable-gpu");
+                        options.addArguments("--window-size=1920,1080");
+                        logger.info("Running Chrome in headless mode (Jenkins detected).");
+                    }
+
+                    driver = new ChromeDriver(options);
+                    logger.info("Chrome browser launched.");
+
                     break;
                 case "firefox":
                     driver = new FirefoxDriver();
