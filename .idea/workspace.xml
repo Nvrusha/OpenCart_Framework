@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="11th Sep 2025">
+    <list default="true" id="c6ba8231-14c3-486f-9457-89d394861eb3" name="Changes" comment="15th Sep 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,30 +54,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.OpenCart_Framework [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.OpenCart_Framework [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/CrossBrowserTesting.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/grid-docker.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/grouping.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/master.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Grouping Suite.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC001_AccountRegistrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC002_LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC004_SearchProductTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/visha/IdeaProjects/OpenCart_Framework/grouping.xml&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.OpenCart_Framework [clean].executor": "Run",
+    "Maven.OpenCart_Framework [test].executor": "Run",
+    "Maven.OpenCart_Framework [validate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/CrossBrowserTesting.xml.executor": "Run",
+    "TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/grid-docker.xml.executor": "Run",
+    "TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/grouping.xml.executor": "Run",
+    "TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/master.xml.executor": "Run",
+    "TestNG.C:/Users/visha/IdeaProjects/OpenCart_Framework/testng.xml.executor": "Run",
+    "TestNG.Grouping Suite.executor": "Run",
+    "TestNG.TC001_AccountRegistrationTest.executor": "Run",
+    "TestNG.TC002_LoginTest.executor": "Run",
+    "TestNG.TC004_SearchProductTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/visha/IdeaProjects/OpenCart_Framework/grouping.xml",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.Grouping Suite">
     <configuration name="C:/Users/visha/IdeaProjects/OpenCart_Framework/grid-docker.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Framework" />
@@ -124,14 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753367864001</updated>
-    </task>
-    <task id="LOCAL-00019" summary="2nd Aug 2025">
-      <option name="closed" value="true" />
-      <created>1754148456612</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1754148456612</updated>
     </task>
     <task id="LOCAL-00020" summary="2nd Aug 2025">
       <option name="closed" value="true" />
@@ -517,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757586432506</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="15th Sep 2025">
+      <option name="closed" value="true" />
+      <created>1773574002075</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1773574002075</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +553,8 @@
     <MESSAGE value="8th Sep 2025" />
     <MESSAGE value="Merge remote-tracking branch 'github/master'" />
     <MESSAGE value="11th Sep 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="11th Sep 2025" />
+    <MESSAGE value="15th Sep 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="15th Sep 2025" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
