@@ -111,12 +111,11 @@ public class BaseClass {
 
                     ChromeOptions options = new ChromeOptions();
 
-                    // If running on Jenkins (no desktop access) use headless
-                    if(System.getenv("JENKINS_HOME") != null){
+                    if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
                         options.addArguments("--headless=new");
                         options.addArguments("--disable-gpu");
                         options.addArguments("--window-size=1920,1080");
-                        logger.info("Running Chrome in headless mode (Jenkins detected).");
+                        logger.info("Running Chrome in headless mode (CI execution).");
                     }
 
                     driver = new ChromeDriver(options);

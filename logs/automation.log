@@ -199,3 +199,20 @@
 2026-03-15 16:14:56 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
 2026-03-15 16:14:56 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
 2026-03-15 16:14:56 INFO  TC001_AccountRegistrationTest:159 - Browser closed and WebDriver session ended.
+2026-03-15 18:12:08 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\visha\IdeaProjects\OpenCart_Framework\master.xml"
+2026-03-15 18:12:12 INFO  TC001_AccountRegistrationTest:123 - Chrome browser launched.
+2026-03-15 18:12:12 INFO  TC001_AccountRegistrationTest:147 - Implicit wait of 10 seconds applied.
+2026-03-15 18:12:12 INFO  TC001_AccountRegistrationTest:152 - Navigated to application URL.
+2026-03-15 18:12:14 INFO  TC001_AccountRegistrationTest:156 - Browser window maximized.
+2026-03-15 18:12:14 INFO  TC001_AccountRegistrationTest:19 - === Starting TC001: Account Registration Test ===
+2026-03-15 18:12:14 INFO  TC001_AccountRegistrationTest:25 - Navigating to Registration Page...
+2026-03-15 18:12:14 DEBUG TC001_AccountRegistrationTest:28 - Clicked 'My Account' on homepage
+2026-03-15 18:12:14 DEBUG TC001_AccountRegistrationTest:31 - Clicked 'Register' to open registration form
+2026-03-15 18:12:14 INFO  TC001_AccountRegistrationTest:38 - Filling in registration form with random data...
+2026-03-15 18:12:14 DEBUG TC001_AccountRegistrationTest:46 - Generated Test Data → FirstName: DPCPP, LastName: YGQOA, Email: SvynF@gmail.com, Phone: 0189461491, Password: xhUch233
+2026-03-15 18:12:15 DEBUG TC001_AccountRegistrationTest:61 - Checked the privacy policy box
+2026-03-15 18:12:16 INFO  TC001_AccountRegistrationTest:64 - Clicked 'Continue' to submit registration form
+2026-03-15 18:12:17 INFO  TC001_AccountRegistrationTest:71 - Confirmation message received: Your Account Has Been Created!
+2026-03-15 18:12:17 INFO  TC001_AccountRegistrationTest:75 - ✅ Account registration test passed
+2026-03-15 18:12:17 INFO  TC001_AccountRegistrationTest:81 - === TC001: Account Registration Test Completed ===
+2026-03-15 18:12:17 INFO  TC001_AccountRegistrationTest:172 - Browser closed and WebDriver session ended.
